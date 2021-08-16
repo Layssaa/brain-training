@@ -1,0 +1,108 @@
+#game-initial{
+    width: 100%;
+    height: 100%;
+}
+.select-phase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phase{
+    display: flex;
+
+    width: 262px;
+    height: 262px;
+    margin: 32px;
+
+    border-radius: 130px;
+    border:3px solid #117800;
+
+   background-color: #C2D37E;
+
+}
+
+#phase1, #phase2, #phase3 {
+    cursor: url("../images/cursor-1.png"), auto;
+}
+
+#phase1{
+    background-image: url(../images/phase1.png);
+    background-size:85%;
+    background-position: center;
+}
+#phase2{
+    background-image: url(../images/phase2.png);
+    background-size:75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 20px;   
+}
+#phase3{
+    background-image: url(../images/phase3.png);
+    background-size:75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 20px;    
+
+}
+
+.icone-lock{
+    width: 64px;
+    position:relative;
+    top: 170px;   
+}
+.icone-star{
+    display: flex;
+    width: 32px;
+
+    position:relative;
+    left: 75px;
+    top: 200px;
+}
+.select-phase-stars{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.select-phase-lock{
+    border-color: royalblue;
+}
+.instruction-select-phase{
+    margin: 0;
+    padding: 0;
+    margin-top: -6%;
+    font-family: Rammetto One;
+    font-style: normal;
+    font-weight: normal;
+    
+    font-size: 34px;
+    line-height: 93px;
+
+    color: #EAF9AE;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #0B4502; 
+    
+    text-align: center;
+}
+
+#template {
+    position: absolute;
+    bottom:0%;
+    left: 74.2%;
+    z-index: 0px;
+}
+
+#character-choice {
+    position: absolute;
+    height:225px;
+    bottom:0%;
+    right: 2%;
+}
+
+#block{
+    position: absolute;
+    width: 20%;
+    height: 42%;
+    right: 28%;
+    top: 30%;
+}

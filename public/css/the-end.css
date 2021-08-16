@@ -1,0 +1,26 @@
+#the-end{
+    background: url("../images/home-background-size.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#copyright-img{
+    width: 20px;
+}
+
+#the-end div{
+    display: flex;
+    justify-self: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+#the-end div p{
+    color: #131314;
+}

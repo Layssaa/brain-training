@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Rebeca",
+        "score": "198",
+        "phase": "2"
+    },
+    {
+        "id": 2,
+        "name": "Antônio",
+        "score": "100",
+        "phase": 0
+    },
+    {
+        "name": "Layssa",
+        "score": "96",
+        "phase": "1",
+        "id": 7
+    },
+    {
+        "name": "Pedro",
+        "score": "93",
+        "phase": "1",
+        "id": 8
+    },
+    {
+        "name": "Platão",
+        "score": "197",
+        "phase": "2",
+        "id": 9
+    },
+    {
+        "name": "Zoom",
+        "score": "90",
+        "phase": "2",
+        "id": 10
+    },
+    {
+        "name": "Luiza",
+        "score": "204",
+        "phase": "2",
+        "id": 11
+    }
+]

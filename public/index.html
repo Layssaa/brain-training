@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brain Training</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="./css/style-game-initial.css">
+    <link rel="stylesheet" href="./css/style-game-phase.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/the-end.css">
+    <link rel="shortcut icon" href="./images/brain2.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <main>
+        <div id="home-page">
+            <div id="title">
+                <img src="./images/brain-training-title.svg" />
+            </div>
+            <input id="name-user" type="text" placeholder="Nome">
+            <button id="start-game">JOGAR</button>
+            <img width="80px" id="ranking" src="./images/ranking.png" />
+        </div>
+    </main>
+    <div id="configures">
+        <img id="audio-effects" src="./images/audio.png" />
+        <img id="music-theme" src="./images/music.png" />
+    </div>
+    <div id="overlay-ranking">
+        <div id="ranking-area" style="background:none;  box-shadow: none; border-radius:none;">
+            <p id="title-ranking">Ranking</p>
+            <img width="35px" id="close-overlay" src="./images/exit.png">
+        </div>
+        <div id="players-space">
+        </div>
+        
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="./js/letter-script-class.js"></script>
+<script src="./js/letter-script.js"></script>
+<script type="module" src="./js/script.js"></script>
+
+</html>

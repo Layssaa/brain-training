@@ -1,0 +1,29 @@
+{
+  "name": "jogo-infantil",
+  "version": "1.0.0",
+  "description": "A game make for kids learn.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simplerino/Jogo-Infantil.git"
+  },
+  "keywords": [
+    "game",
+    "kids",
+    "learn",
+    "funny"
+  ],
+  "author": "Layssa e Pedro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simplerino/Jogo-Infantil/issues"
+  },
+  "homepage": "https://github.com/Simplerino/Jogo-Infantil#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
