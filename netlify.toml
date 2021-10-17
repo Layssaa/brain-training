@@ -1,9 +1,0 @@
-[build]
-base = "."
-command = "CI= npm start"
-publish = "./build/"
-
-[[redirects]]
-  from = "/*"
-  to = "/"
-  status = 200
