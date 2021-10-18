@@ -18,13 +18,13 @@ Jogo infantil utilizando drag and drop do JQuery.
 #### Há duas fases disponíveis, a segunda não pode ser acessada sem que a primeira seja completada com sucesso.
 ![fases](https://user-images.githubusercontent.com/69046604/137670735-96007f35-9978-457e-ba66-80cb50f22a56.PNG)
 
-#### Na primeira, de um lado há palavras incompletas, do outro há letras que devem ser arrastadas para completar as palavras corretamentes
+#### Na primeira, há um lado com palavras incompletas, e do outro letras que devem ser arrastadas para completar as palavras corretamente.
 ![fase-1](https://user-images.githubusercontent.com/69046604/137670745-6d1c3f29-2439-4bf2-9566-976e6b2babbe.PNG)
 
-#### Ao ganhar, a tela de "vitória" aparece.
+#### Ao ganhar, a tela de "vitória" é exibida.
 ![vitoria](https://user-images.githubusercontent.com/69046604/137670742-598be190-8c61-4375-a4fd-5534ce6a80c0.PNG)
 
-#### Na segunda fase, existem lugares com nomes de animais vazios de um lado e do outro, figuras de animais que, no mesmo sentido da fase anterior, devem ser arrastada para seus respectivos lugares.
+#### Já na segunda fase, existem lugares com nomes de animais vazios de um lado e do outro, figuras de animais que, no mesmo sentido da fase anterior, devem ser arrastada para seus respectivos lugares.
 ![fase-2](https://user-images.githubusercontent.com/69046604/137670734-0fdd9704-c8c1-47e2-9397-6904ef448502.PNG)
 
 #### Fim
