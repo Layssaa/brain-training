@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Simplerino/Jogo-Infantil#readme",
   "dependencies": {
+    "dotenv": "^14.3.2",
     "express": "^4.17.1"
   }
 }
