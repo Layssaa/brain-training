@@ -1,7 +1,7 @@
 [build]
 base = "."
-command = "CI= npm run build"
-publish = "./build/"
+command = "CI= npm run start"
+publish = "./"
 
 [[redirects]]
   from = "/*"
