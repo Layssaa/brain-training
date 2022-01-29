@@ -5,8 +5,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const path = require('path');
 const { resolve } = require('path');
-const PORT =  process.env.PORT || 80;
-
+const PORT =  process.env.PORT || 8080;
 
 let playersList;
 let user = {}
